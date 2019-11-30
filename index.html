@@ -24,14 +24,15 @@
         </li>
         <li class="header__title header-item">
           <span class="header-item__schicon">
-              <i class="fas fa-search"></i>
-              <input type="text" class="header-item_search" value="Search" />
+            <i class="fas fa-search"></i>
+            <input type="text" class="header-item_search" value="Search" />
           </span>
         </li>
         <li class="header__title header-item">
           <nav class="header__nav hnav">
-            <span class="hnav__icon"
-              ><a href="location.html"> <i class="far fa-compass"></i></a>
+            <span class="hnav__icon">
+              <a href="location.html">
+                <i class="far fa-compass"></i></a>
             </span>
             <span class="hnav__icon"
               ><a href="likepage.html">
@@ -46,65 +47,65 @@
       </ul>
     </header>
     <main class="main">
-      <header class="main__header">
-        <div class="main__profile-img">
-          <img src="images/profile/instagram.jpg" class="g-avatar l-avatar" />
-        </div>
-        <ul class="main__list list">
-          <li class="list-item first">
-            <span class="first__name">jun._.o_</span>
-            <span class="first__editbtn">
-              <button>Edit Profile</button>
-            </span>
-            <span class="first__settingicon">
-              <a href="settings.html"> <i class="fas fa-cogs"></i></a>
-            </span>
-          </li>
-          <li class="list-item second">
-            <div class="list-item__column">
-              <span class="second__num">567</span>
-              <span class="second__text">posts</span>
-            </div>
-            <div class="list-item__column">
-              <a href="followers.html">
-                <span class="second__num">681</span>
-                <span class="second__text">followers</span>
-              </a>
-            </div>
-            <div class="list-item__column">
-              <span class="second__num">482</span>
-              <span class="second__text">following</span>
-            </div>
-          </li>
-          <li class="list-item third">
-            <div class="third__name">이준오</div>
-            <div class="third__status">콩이 형아🐶💕</div>
-          </li>
-        </ul>
-      </header>
-      <section class="section">
-        <div class="section__menu">
-          <ul class="section__list">
+      <div class="main__inbox">
+        <header class="main__header">
+          <div class="main__profile-img">
+            <img src="images/profile/instagram.jpg" class="g-avatar l-avatar" />
+          </div>
+          <ul class="main__list list">
+            <li class="list__content first">
+              <span class="first__name first-item">Jun._.o_</span>
+              <span class="first__editbtn first-item">
+                <button>Edit Profile</button>
+              </span>
+              <span class="first__settingicon first-item">
+                <a href="settings.html"> <i class="fas fa-cogs"></i></a>
+              </span>
+            </li>
+            <li class="list__content second">
+              <div class="list-content__column second-item">
+                <span class="second__num">567</span>
+                <span class="second__text">posts</span>
+              </div>
+              <div class="list-content__column second-item">
+                <a href="followers.html">
+                  <span class="second__num">681</span>
+                  <span class="second__text">followers</span>
+                </a>
+              </div>
+              <div class="list-content__column second-item">
+                <span class="second__num">482</span>
+                <span class="second__text">following</span>
+              </div>
+            </li>
+            <li class="list__content third">
+              <div class="third__name">이준오</div>
+              <div class="third__status">콩이 형아🐶💕</div>
+            </li>
+          </ul>
+        </header>
+        <section class="section">
+          <ul class="section__menu">
             <li class="section__list list list-item">
-              <div class="list__column">
+              <div class="list__column list__posts">
                 <span class="list-item__icon">
                   <i class="fas fa-border-all"></i>
                 </span>
                 <span class="list-item__name">POSTS</span>
               </div>
-              <div class="list-column">
+              <div class="list__column">
                 <span class="list-item__icon">
                   <i class="fas fa-desktop"></i>
                 </span>
                 <span class="list-item__name">IGTV</span>
               </div>
-              <div class="list-column">
+              <div class="list__column">
                 <span class="list-item__icon">
                   <i class="far fa-bookmark"></i>
                 </span>
                 <span class="list-item__name">SAVED</span>
               </div>
-              <div class="list-column">
+              <div class="list__column">
                 <span class="list-item__icon">
                   <i class="far fa-id-badge"></i>
                 </span>
@@ -112,66 +113,75 @@
               </div>
             </li>
           </ul>
-        </div>
-        <div class="section__imglist">
-          <div class="section__imglist post-img">
-            <div class="section_img-column">
-              <img src="images/post/bread.jpg" class="post-img__img" />
-              <div class="post-img__icon">
-                <i class="far fa-heart"></i>
+          <div class="section__imglists">
+            <div class="section__imglist post-img">
+              <div class="section__img-column">
+                <img src="images/post/bread.jpg" class="post-img__img" />
+                <div class="post-img__icon">
+                  <div class="post-img__img box"></div>
+                  <i class="far fa-heart"></i>
+                </div>
               </div>
-            </div>
-            <div class="section_img-column">
-              <img src="images/post/cafe.jpg" class="post-img__img" />
-              <div class="post-img__icon">
-                <i class="far fa-heart"></i>
+              <div class="section__img-column">
+                <img src="images/post/cafe.jpg" class="post-img__img" />
+                <div class="post-img__icon">
+                  <div class="post-img__img box"></div>
+                  <i class="far fa-heart"></i>
+                </div>
               </div>
-            </div>
-            <div class="section_img-column">
-              <img src="images/post/food.jpg" class="post-img__img" />
-              <div class="post-img__icon">
-                <i class="far fa-heart"></i>
+              <div class="section__img-column">
+                <img src="images/post/food.jpg" class="post-img__img" />
+                <div class="post-img__icon">
+                  <div class="post-img__img box"></div>
+                  <i class="far fa-heart"></i>
+                </div>
               </div>
-            </div>
-            <div class="section_img-column">
-              <img src="images/post/kongi.jpg" class="post-img__img" />
-              <div class="post-img__icon">
-                <i class="far fa-heart"></i>
+              <div class="section__img-column">
+                <img src="images/post/kongi.jpg" class="post-img__img" />
+                <div class="post-img__icon">
+                  <div class="post-img__img box"></div>
+                  <i class="far fa-heart"></i>
+                </div>
               </div>
-            </div>
-            <div class="section_img-column">
-              <img src="images/post/시계.jpg" class="post-img__img" />
-              <div class="post-img__icon">
-                <i class="far fa-heart"></i>
+              <div class="section__img-column">
+                <img src="images/post/시계.jpg" class="post-img__img" />
+                <div class="post-img__icon">
+                  <div class="post-img__img box"></div>
+                  <i class="far fa-heart"></i>
+                </div>
               </div>
-            </div>
-            <div class="section_img-column">
-              <img src="images/post/rezoto.jpg" class="post-img__img" />
-              <div class="post-img__icon">
-                <i class="far fa-heart"></i>
+              <div class="section__img-column">
+                <img src="images/post/rezoto.jpg" class="post-img__img" />
+                <div class="post-img__icon">
+                  <div class="post-img__img box"></div>
+                  <i class="far fa-heart"></i>
+                </div>
               </div>
-            </div>
-            <div class="section_img-column">
-              <img src="images/post/teapot.jpg" class="post-img__img" />
-              <div class="post-img__icon">
-                <i class="far fa-heart"></i>
+              <div class="section__img-column">
+                <img src="images/post/teapot.jpg" class="post-img__img" />
+                <div class="post-img__icon">
+                  <div class="post-img__img box"></div>
+                  <i class="far fa-heart"></i>
+                </div>
               </div>
-            </div>
-            <div class="section_img-column">
-              <img src="images/post/coffee.jpg" class="post-img__img" />
-              <div class="post-img__icon">
-                <i class="far fa-heart"></i>
+              <div class="section__img-column">
+                <img src="images/post/coffee.jpg" class="post-img__img" />
+                <div class="post-img__icon">
+                  <div class="post-img__img box"></div>
+                  <i class="far fa-heart"></i>
+                </div>
               </div>
-            </div>
-            <div class="section_img-column">
-              <img src="images/post/coffeetea.jpg" class="post-img__img" />
-              <div class="post-img__icon">
-                <i class="far fa-heart"></i>
+              <div class="section__img-column">
+                <img src="images/post/coffeetea.jpg" class="post-img__img" />
+                <div class="post-img__icon">
+                  <div class="post-img__img box"></div>
+                  <i class="far fa-heart"></i>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
   </body>
 </html>

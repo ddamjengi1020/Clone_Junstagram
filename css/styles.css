@@ -1,7 +1,10 @@
 @import "reset.css";
 @import "index.css";
 @import "header_nav-bar.css";
+@import "main.css";
 @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,600,700|Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,600,700|Questrial|Satisfy&display=swap');
 
 * {
     box-sizing: border-box;
@@ -18,5 +21,10 @@ body {
 }
 
 main {
-    padding: 0px 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.main__inbox{
+    width: 936px;
 }
