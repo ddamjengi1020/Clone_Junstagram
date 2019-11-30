@@ -11,32 +11,30 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="body-shadow">
     <header class="header">
       <ul class="header__bar">
-        <li class="header__title header-title header-item ">
-          <div class="header-item__icon">
+        <li class="header__title header-item">
+          <span class="header-item__icon">
             <i class="fab fa-instagram"></i>
-          </div>
+          </span>
           <span class="header-item__title">
-            Juntagram
+            Junstagram
           </span>
         </li>
         <li class="header__title header-item">
           <span class="header-item__schicon">
-              <i class="fas fa-search"></i>
-              <input type="text" class="header-item_search" value="Search" />
+            <i class="fas fa-search"></i>
           </span>
+          <input type="text" class="header-item_search" value="search" />
         </li>
         <li class="header__title header-item">
           <nav class="header__nav hnav">
-            <span class="hnav__icon"
-              ><a href="location.html"> <i class="far fa-compass"></i></a>
+            <span class="hnav__icon">
+              <i class="far fa-compass"></i>
             </span>
-            <span class="hnav__icon"
-              ><a href="likepage.html">
-                <i class="far fa-heart"></i>
-              </a>
+            <span class="hnav__icon">
+              <i class="far fa-heart"></i>
             </span>
             <span class="hnav__icon">
               <i class="far fa-user"></i>
@@ -57,7 +55,7 @@
               <button>Edit Profile</button>
             </span>
             <span class="first__settingicon">
-              <a href="settings.html"> <i class="fas fa-cogs"></i></a>
+              <i class="fas fa-cogs"></i>
             </span>
           </li>
           <li class="list-item second">
@@ -66,10 +64,8 @@
               <span class="second__text">posts</span>
             </div>
             <div class="list-item__column">
-              <a href="followers.html">
-                <span class="second__num">681</span>
-                <span class="second__text">followers</span>
-              </a>
+              <span class="second__num">681</span>
+              <span class="second__text">followers</span>
             </div>
             <div class="list-item__column">
               <span class="second__num">482</span>
@@ -173,5 +169,62 @@
         </div>
       </section>
     </main>
+    <div class="followers">
+      <div class="followers__title f-title">
+        <div class="f-title-column">
+          <span class="f-title__name">
+            Followers
+          </span>
+        </div>
+        <div class="f-title-column">
+          <span class="f-title__name"
+            ><a href="index.html">
+              <i class="fas fa-times"></i>
+            </a>
+          </span>
+        </div>
+      </div>
+      <ul class="followers__list">
+        <li class="followers__block f-block">
+          <div class="followers-column">
+            <img src="images/profile/bear.jpg" class="g-avatar s-avatar" />
+            <span class="f-block__contents contents">
+              <span class="contents__id">love_objects</span>
+              <span class="contents__name">andrew</span>
+            </span>
+            <div class="followers-column">
+              <span class="following-btn">Following</span>
+            </div>
+          </div>
+        </li>
+        <li class="followers__block f-block">
+          <div class="followers-column">
+            <img src="images/profile/yeon.jpg" class="g-avatar s-avatar" />
+            <span class="f-block__contents contents">
+              <span class="contents__id">yeon_y</span>
+              <span class="contents__name">연그림</span>
+            </span>
+            <div class="followers-column">
+              <span class="follow-btn">Follow</span>
+            </div>
+          </div>
+        </li>
+        <li class="followers__block flw-block">
+          <div class="followers-column">
+            <img
+              src="images/profile/ahyunstudio.jpg"
+              class="g-avatar s-avatar"
+            />
+            <span class="f-block__contents contents">
+              <span class="contents__id">a.h_studio</span>
+              <span class="contents__name">아현공방</span>
+            </span>
+            <div class="followers-column">
+              <span class="following-btn">Following</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
