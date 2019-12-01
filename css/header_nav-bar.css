@@ -8,15 +8,22 @@
     cursor: pointer;
 }
 
+.header__box {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-bottom: 1.5px solid #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header .header__bar {
+    width: 970px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    height: 70px;
-    padding: 0% 11%;
-    background-color: white;
-    border-bottom: 1.5px solid #EFEFEF;
+   
 }
 
 .header .header-item__icon{

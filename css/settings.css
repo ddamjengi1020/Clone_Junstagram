@@ -1,0 +1,42 @@
+.followers.settings {
+  width: 402px;
+  height: 482px;
+  margin: 25%;
+  border: 1px solid black;
+  font-family: "comfortaa", cursive;
+  border-radius: 4%;
+  background-color: white;
+}
+
+.followers__box.settings {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    z-index: 1; 
+  }
+
+.followers__list.settings {
+  border: none;
+  padding: 0;
+}
+
+.settings__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 48px;
+  height: 48px;
+  border-bottom: 0.1px solid rgb(216, 215, 215);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.settings__title.borderx {
+    border: none;
+}

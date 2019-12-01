@@ -13,35 +13,37 @@
   </head>
   <body>
     <header class="header">
-      <ul class="header__bar">
-        <li class="header__title header-title header-item">
-          <div class="header-item__icon">
-            <i class="fab fa-instagram"></i>
-          </div>
-          <span class="header-item__title">
-            Junstagram
-          </span>
-        </li>
-        <li class="header__title header-item">
-          <span class="header-item__schicon">
-            <i class="fas fa-search"></i>
-            <input type="text" class="header-item_search" value="search" />
-          </span>
-        </li>
-        <li class="header__title header-item">
-          <nav class="header__nav hnav">
-            <span class="hnav__icon">
-              <i class="far fa-compass"></i>
+      <div class="header__box">
+        <ul class="header__bar">
+          <li class="header__title header-title header-item">
+            <div class="header-item__icon">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <span class="header-item__title">
+              Junstagram
             </span>
-            <span class="hnav__icon">
-              <i class="far fa-heart"></i>
+          </li>
+          <li class="header__title header-item">
+            <span class="header-item__schicon">
+              <i class="fas fa-search"></i>
+              <input type="text" class="header-item_search" value="search" />
             </span>
-            <span class="hnav__icon">
-              <i class="far fa-user"></i>
-            </span>
-          </nav>
-        </li>
-      </ul>
+          </li>
+          <li class="header__title header-item">
+            <nav class="header__nav hnav">
+              <span class="hnav__icon">
+                <i class="far fa-compass"></i>
+              </span>
+              <span class="hnav__icon">
+                <i class="far fa-heart"></i>
+              </span>
+              <span class="hnav__icon">
+                <i class="far fa-user"></i>
+              </span>
+            </nav>
+          </li>
+        </ul>
+      </div>
     </header>
     <main class="main">
       <div class="main__inbox">
@@ -114,57 +116,30 @@
             <div class="section__imglist post-img">
               <div class="section_img-column">
                 <img src="images/post/bread.jpg" class="post-img__img" />
-                <div class="post-img__icon">
-                  <i class="far fa-heart"></i>
-                </div>
               </div>
               <div class="section_img-column">
                 <img src="images/post/cafe.jpg" class="post-img__img" />
-                <div class="post-img__icon">
-                  <i class="far fa-heart"></i>
-                </div>
               </div>
               <div class="section_img-column">
                 <img src="images/post/food.jpg" class="post-img__img" />
-                <div class="post-img__icon">
-                  <i class="far fa-heart"></i>
-                </div>
               </div>
               <div class="section_img-column">
                 <img src="images/post/kongi.jpg" class="post-img__img" />
-                <div class="post-img__icon">
-                  <i class="far fa-heart"></i>
-                </div>
               </div>
               <div class="section_img-column">
                 <img src="images/post/시계.jpg" class="post-img__img" />
-                <div class="post-img__icon">
-                  <i class="far fa-heart"></i>
-                </div>
               </div>
               <div class="section_img-column">
                 <img src="images/post/rezoto.jpg" class="post-img__img" />
-                <div class="post-img__icon">
-                  <i class="far fa-heart"></i>
-                </div>
               </div>
               <div class="section_img-column">
                 <img src="images/post/teapot.jpg" class="post-img__img" />
-                <div class="post-img__icon">
-                  <i class="far fa-heart"></i>
-                </div>
               </div>
               <div class="section_img-column">
                 <img src="images/post/coffee.jpg" class="post-img__img" />
-                <div class="post-img__icon">
-                  <i class="far fa-heart"></i>
-                </div>
               </div>
               <div class="section_img-column">
                 <img src="images/post/coffeetea.jpg" class="post-img__img" />
-                <div class="post-img__icon">
-                  <i class="far fa-heart"></i>
-                </div>
               </div>
             </div>
           </div>
@@ -174,65 +149,103 @@
     <div class="likepages">
       <div class="likepages__likepage">
         <ul class="likepages__box">
-          <li class="likepage__list list">
-            <div class="list-column">
-              <span class="list__close-icon">
-                <i class="fas fa-times"></i>
-              </span>
-            </div>
-            <div class="list-column">
-              <span class="list__close-name"
-                ><a href="index.html">Close</a></span
-              >
-            </div>
+          <li class="likepage__close close">
+            <a href="index.html"><span class="close__name">Close</span></a>
           </li>
           <li class="likepage__list list">
             <div class="list-column">
               <img src="images/profile/cook.jpg" class="g-avatar s-avatar" />
-              <span class="list__id">badang_dish</span>
-              <span class="list__contents">liked your photo.</span>
             </div>
-            <div class="list-column">
-              <div class="list__img">
-                <img
-                  src="images/post/coffee.jpg"
-                  class="post-img__img s-post-img"
-                />
+            <div class="list-column column-secondbox">
+              <div class="list-column__column">
+                <span class="list__id">badang_dish</span>
+                <span class="list__contents">liked your photo.</span>
               </div>
+              <img
+                src="images/post/coffee.jpg"
+                class="post-img__img s-post-img"
+              />
             </div>
           </li>
           <li class="likepage__list list">
             <div class="list-column">
               <img src="images/profile/fall.jpg" class="g-avatar s-avatar" />
-              <span class="list__id">fallbear</span>
-              <span class="list__contents">liked your photo.</span>
             </div>
-            <div class="list-column">
-              <div class="list__img">
-                <img
-                  src="images/post/rezoto.jpg"
-                  class="post-img__img s-post-img"
-                />
+            <div class="list-column column-secondbox">
+              <div class="list-column__column">
+                <span class="list__id">fallbear</span>
+                <span class="list__contents">liked your photo.</span>
               </div>
+              <img
+                src="images/post/rezoto.jpg"
+                class="post-img__img s-post-img"
+              />
             </div>
           </li>
           <li class="likepage__list list">
             <div class="list-column">
               <img src="images/profile/eng.jpg" class="g-avatar s-avatar" />
-              <span class="list__id">huyne_o1</span>
-              <span class="list__contents">liked your photo.</span>
             </div>
-            <div class="list-column">
-              <div class="list__img">
-                <img
-                  src="images/post/bread.jpg"
-                  class="post-img__img s-post-img"
-                />
+            <div class="list-column column-secondbox">
+              <div class="list-column__column">
+                <span class="list__id">huyne_o1</span>
+                <span class="list__contents">liked your photo.</span>
               </div>
+              <img
+                src="images/post/bread.jpg"
+                class="post-img__img s-post-img"
+              />
+            </div>
+          </li>
+          <li class="likepage__list list">
+            <div class="list-column">
+              <img src="images/profile/cook.jpg" class="g-avatar s-avatar" />
+            </div>
+            <div class="list-column column-secondbox">
+              <div class="list-column__column">
+                <span class="list__id">badang_dish</span>
+                <span class="list__contents">liked your photo.</span>
+              </div>
+              <img
+                src="images/post/coffee.jpg"
+                class="post-img__img s-post-img"
+              />
+            </div>
+          </li>
+          <li class="likepage__list list">
+            <div class="list-column">
+              <img src="images/profile/fall.jpg" class="g-avatar s-avatar" />
+            </div>
+            <div class="list-column column-secondbox">
+              <div class="list-column__column">
+                <span class="list__id">fallbear</span>
+                <span class="list__contents">liked your photo.</span>
+              </div>
+              <img
+                src="images/post/rezoto.jpg"
+                class="post-img__img s-post-img"
+              />
+            </div>
+          </li>
+          <li class="likepage__list list">
+            <div class="list-column">
+              <img src="images/profile/eng.jpg" class="g-avatar s-avatar" />
+            </div>
+            <div class="list-column column-secondbox">
+              <div class="list-column__column">
+                <span class="list__id">huyne_o1</span>
+                <span class="list__contents">liked your photo.</span>
+              </div>
+              <img
+                src="images/post/bread.jpg"
+                class="post-img__img s-post-img"
+              />
             </div>
           </li>
         </ul>
       </div>
     </div>
+    <div class="boox"></div>
+    <div class="booxx"></div>
   </body>
 </html>

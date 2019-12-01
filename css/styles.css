@@ -2,9 +2,14 @@
 @import "index.css";
 @import "header_nav-bar.css";
 @import "main.css";
+@import "followers.css";
+@import "settings.css";
+@import "likepage.css";
 @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,600,700|Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,600,700|Questrial|Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700|Quicksand:400,500,600,700&display=swap');
 
 * {
     box-sizing: border-box;

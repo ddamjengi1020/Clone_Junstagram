@@ -1,0 +1,114 @@
+.body-shadow {
+  position: relative;
+  overflow: hidden;
+}
+.body-inbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.65;
+}
+.followers__box {
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  z-index: 1; 
+}
+
+.followers {
+  width: 403px;
+  height: 403px;
+  margin: 25%;
+  border: 1px solid black;
+  font-family: "comfortaa", cursive;
+  border-radius: 4%;
+  background-color: white;
+}
+
+.g-avatar.s-avatar {
+  width: 32px;
+  border-radius: 50%;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.followers .followers__title {
+  display: grid;
+  grid-template-columns: 48px auto 48px;
+  padding: 15px 0px;
+}
+
+.followers__title .f-title__name,
+.followers__title .f-title__icon {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.followers__title .f-title__name {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+
+.followers .followers__list {
+    padding: 11px 16px;
+    border-top: 0.3px solid rgb(204, 203, 203);
+  
+}
+
+.followers__list .f-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 13px;
+  font-size: 14px;
+}
+
+.followers__list .followers-column {
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+}
+
+.contents .contents__id {
+  display: block;
+}
+
+.contents__id {
+  font-weight: 600;
+  font-family: "Catamaran", sans-serif;
+  cursor: pointer;
+}
+
+.contents__name {
+  color: rgba(182, 182, 182, 0.966);
+  font-weight: 600;
+}
+
+.f-block .follow-btn,
+.following-btn {
+    font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  padding: 8px;
+  border: 1.1px solid rgb(194, 192, 192);
+  border-radius: 10% / 20%;
+  cursor: pointer;
+}
+
+.f-block .follow-btn {
+  background-color: rgb(72, 145, 255);
+  color: white;
+  border: none;
+  padding: 9px;
+}
