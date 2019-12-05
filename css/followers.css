@@ -33,6 +33,7 @@
   font-family: "comfortaa", cursive;
   border-radius: 4%;
   background-color: white;
+  animation: scaleForm 0.3s linear forwards;
 }
 
 .g-avatar.s-avatar {

@@ -1,3 +1,7 @@
+.mainheader-anim{
+    animation: fadeDown 0.5s linear forwards;
+}
+
 .header .header-item__title {
     font-family: 'Satisfy', cursive;
     font-size: 27px;
@@ -16,6 +20,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.mainheader-box {
+    position: fixed;
+    z-index: 4;
 }
 
 .header .header__bar {

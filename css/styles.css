@@ -5,6 +5,7 @@
 @import "followers.css";
 @import "settings.css";
 @import "likepage.css";
+@import "location.css";
 @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,600,700|Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,600,700|Questrial|Satisfy&display=swap');
@@ -22,7 +23,7 @@ a {
 
 body {
     background-color: #FAFAFA;
-    width: 100%;   
+    width: 100%;
 }
 
 main {
@@ -32,4 +33,46 @@ main {
 
 .main__inbox{
     width: 936px;
+}
+
+
+
+@keyframes fadeUp {
+    from{
+        transform: translateY(10px);
+    }to{
+        transform: none;
+    }
+}
+
+@keyframes fadeDown {
+    from{
+        transform: translateY(-10px);
+    }to{
+        transform: none;
+    }
+}
+
+@keyframes opacity {
+    from{
+        opacity: 0.7;
+    }to{
+        opacity: 1;
+    }
+}
+
+@keyframes scaleForm {
+    from{
+        transform: scaleX(0.95) scaleY(0.95);
+    }to{
+        transform: none
+    }
+}
+
+@keyframes rollDown{
+    from{
+        height: 0;
+    }to {
+        height: 363px;
+    }
 }

@@ -1,0 +1,101 @@
+
+.location__header {
+    display: block;
+    align-items: center;
+    margin-top: 59px;
+}
+
+.location__header .location__title {
+    font-weight: 600;
+    font-family: "Catamaran", sans-serif;
+    font-size: 15px;
+    color: rgb(161, 161, 161);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location__title .lc-title__more {
+    color: rgb(66, 142, 255);
+    cursor: pointer;
+}
+
+.location__header .location__userbox{
+    display: flex;
+    padding: 33px 0px 78px 25px;
+    
+}
+
+.location__header .g-avatar.m-avatar {
+    width: 55px;
+    border: 0.6px solid rgb(230, 230, 230);
+    margin-bottom: 18px;
+}
+
+.location__header .location__userbox-list {
+    width: 176px;
+    height: 200px;
+    border: 1px solid rgb(223, 222, 222);
+    margin-right: 24px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    position: relative;
+    background-color: white;
+}
+
+.location__header .location__userbox-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.user-list .user-list__id {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: "Catamaran", sans-serif;
+    font-size: 14px;
+}
+
+.user-list .user-list__status {
+    font-weight: 400;
+    font-family: "Catamaran", sans-serif;
+    font-size: 13px;
+    color: rgb(161, 161, 161);
+}
+
+.follow-btn {
+    background-color: rgb(66, 142, 255);
+  color: white;
+  border: none;
+  padding: 9px;
+  font-size: 13px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.section .section__title {
+    font-weight: 600;
+    font-family: "Catamaran", sans-serif;
+    font-size: 15px;
+    color: rgb(161, 161, 161);
+    margin-bottom: 18px;
+}
+
+.section_img-column {
+    cursor: pointer;
+}
+
+
+
+
+
+
+

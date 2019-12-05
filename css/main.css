@@ -8,6 +8,11 @@
   border-radius: 50%;
 }
 
+.main__anim {
+  animation: fadeUp 0.5s linear forwards;
+  padding-top: 70px;
+}
+
 .main .main__header {
   display: flex;
   border-bottom: 1.2px solid #EFEFEF;
