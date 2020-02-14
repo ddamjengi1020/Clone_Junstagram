@@ -10,7 +10,7 @@ _instagram clone coding_
 + followers page
 
 ------------------------
-> [https://ddamjengi1020.github.io/Clone_Junstagram/](https://ddamjengi1020.github.io/Clone_Junstagram/, "junstagram link")
+> [https://ddamjengi1020.github.io/Clone_Junstagram/](https://ddamjengi1020.github.io/Clone_Junstagram/ "junstagram link")
 
 __Only instagram UI clone Coding__
 
