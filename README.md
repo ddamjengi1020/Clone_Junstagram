@@ -17,8 +17,8 @@ __Only instagram UI clone Coding__
 (Click the displayed section to switch pages)
 
 
-<img src="https://ddamjengi1020.github.io/imageHosting/github/insta/insta1.jpg" width="320px">    <img src="https://ddamjengi1020.github.io/imageHosting/github/insta/insta2.jpg" width="400px">
+<img src="https://front-juno.github.io/images-fonts/images/github/insta/insta1.jpg" width="320px">    <img src="https://front-juno.github.io/images-fonts/images/github/insta/insta2.jpg" width="400px">
 <br>
-<img src="https://ddamjengi1020.github.io/imageHosting/github/insta/insta3.jpg" width="370px">  <img src="https://ddamjengi1020.github.io/imageHosting/github/insta/insta4.jpg" width="400px">
+<img src="https://front-juno.github.io/images-fonts/images/github/insta/insta3.jpg" width="370px">  <img src="https://front-juno.github.io/images-fonts/images/github/insta/insta4.jpg" width="400px">
 <br>
-<img src="https://ddamjengi1020.github.io/imageHosting/github/insta/insta5.jpg" width="400px">
+<img src="https://front-juno.github.io/images-fonts/images/github/insta/insta5.jpg" width="400px">
